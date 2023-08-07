@@ -1,0 +1,12 @@
+{
+  "name":"FreeRun",
+  "version":"0.0.1",
+  "description":"Free access to Runners World articles",
+  "manifest_version":3,
+  "author":"Bobby Palmer",
+  "action":{
+    "default_popup":TODO,
+    "default_title":TODO
+  }
+
+}
