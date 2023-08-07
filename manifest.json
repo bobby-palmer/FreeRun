@@ -4,15 +4,10 @@
   "description":"Free access to Runners World articles",
   "manifest_version":3,
   "author":"Bobby Palmer",
-  "action":{
-    "default_popup":"index.html",
-    "default_title":"FreeRun"
+  "background":{
+    "service_worker": "background.js"
   },
-  "content_scripts":[
-    {
-      "matches":["<all_urls>"],
-      "js":["content.js"]
-    }
-  ],
+  "action":{
 
+  },
 }
