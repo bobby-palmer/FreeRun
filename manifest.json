@@ -6,7 +6,13 @@
   "author":"Bobby Palmer",
   "action":{
     "default_popup":"index.html",
-    "default_title":TODO
-  }
+    "default_title":"FreeRun"
+  },
+  "content_scripts":[
+    {
+      "matches":["<all_urls>"],
+      "js":["content.js"]
+    }
+  ],
 
 }
