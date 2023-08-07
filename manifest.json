@@ -10,5 +10,5 @@
   "action":{
 
   },
-  "permissions":["activeTab", "scripting"],
+  "permissions":["activeTab"],
 }
